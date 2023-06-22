@@ -100,9 +100,7 @@ def restart():
 
 
 def next_chapter(go_back, text, chapter):
-    print("next chapter ran")
     go_back_prompt(go_back)
-    print("go back prompt ran")
     pauser(text)
 
     input("Press enter to continue to the next chapter")
